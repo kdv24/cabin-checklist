@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { checklist } from "./checklistData";
-import ChecklistItem from "./ChecklistItem";
+import ChecklistItem from "./ChecklistItem.jsx";
 
 function defaultChecked(data) {
   if (Array.isArray(data)) {
