@@ -14,8 +14,8 @@ export const checklist = [
       "Dishes (including dog's) to dishwasher & start it",
       "Nespresso maker and frother",
       "Magnets",
+      "Trays:",
       {
-        label: "Trays",
         items: [
           "spoonrest",
           "small blue rectangle",
@@ -46,15 +46,15 @@ export const checklist = [
     items: [
       "Nightstands",
       "Back of door",
+      "Drawers emptied",
       {
-        label: "Drawers emptied",
         items: [
           "Kelly's wicker basket goes in zippered laundry",
           "Kelly's other drawers stack vertically in large orange zippered"
         ]
       },
+      "Closet emptied",
       {
-        label: "Closet emptied",
         items: [
           "Kelly's clothes in black bags with bungee stay far left",
           "Kelly's shoes are zipped in bag & go to attic",

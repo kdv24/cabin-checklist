@@ -1,0 +1,125 @@
+/* Modern, clean checklist styles for Vite React app */
+
+body {
+  background: #f6f8fa;
+  color: #222;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.app-container.dark,
+body.dark {
+  background: #181c1f;
+  color: #e6e6e6;
+}
+
+.app-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  transition: background 0.2s, color 0.2s;
+}
+.app-container.dark {
+  background: #23272b;
+  color: #e6e6e6;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #008080;
+  margin-bottom: 0.5em;
+  transition: color 0.2s;
+}
+.app-container.dark h1 {
+  color: #4fd1c5;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #444;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  transition: color 0.2s;
+}
+.app-container.dark h2 {
+  color: #b2f5ea;
+}
+
+button {
+  background: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-bottom: 1.5em;
+}
+button:hover {
+  background: #005f5f;
+}
+.app-container.dark button {
+  background: #2d3748;
+  color: #e6e6e6;
+}
+.app-container.dark button:hover {
+  background: #4a5568;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.7em;
+  font-size: 1.08rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+input[type="checkbox"] {
+  accent-color: #008080;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.7em;
+  margin-top: 0.1em;
+  transition: accent-color 0.2s;
+}
+.app-container.dark input[type="checkbox"] {
+  accent-color: #4fd1c5;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+footer {
+  margin-top: 2.5em;
+  color: #888;
+  font-size: 0.98em;
+  text-align: center;
+  transition: color 0.2s;
+}
+.app-container.dark footer {
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
