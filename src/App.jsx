@@ -121,7 +121,7 @@ export default function App() {
           To re-use, click the “Reset All” button or uncheck boxes manually.
         </p>
         <p>
-          <a href="https://github.com/kdv24/home-rental-checklist" rel="noopener noreferrer" target="_blank">
+          <a style={{color: "cadetblue"}} href="https://github.com/kdv24/home-rental-checklist" rel="noopener noreferrer" target="_blank">
             View on GitHub
           </a>
         </p>
